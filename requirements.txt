@@ -1,0 +1,4 @@
+rdkit==2023.03.1
+pandas==1.5.3
+tqdm==4.65.0
+argparse==1.4.0
