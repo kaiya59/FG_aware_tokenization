@@ -6,7 +6,7 @@ The input CSV file must contain at least one column named SMILES, which stores t
 
 ## Usage
 Run the script with the following command:
-python process_molecule_data.py <csv_path> <save_path>
+`python process_molecule_data.py <csv_path> <save_path>`
 * <csv_path>: Path to the input CSV file containing molecule data. The file must contain a column named SMILES.
 * <save_path>: Path where the output pickle file will be saved.
   
