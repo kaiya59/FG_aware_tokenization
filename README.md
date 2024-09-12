@@ -6,11 +6,11 @@ The input CSV file must contain at least one column named SMILES, which stores t
 
 ## Usage
 Run the script with the following command:
-`python process_molecule_data.py <csv_path> <save_path>`
+`python text_corpus_prepare.py <csv_path> <save_path>`
 * <csv_path>: Path to the input CSV file containing molecule data. The file must contain a column named SMILES.
 * <save_path>: Path where the output pickle file will be saved.
   
 ## Notes:
-* The get_new_smiles_rep function (from the helpers module) is used to generate the new SMILES representation for each molecule.
+* The `get_new_smiles_rep` function (from the helpers module) is used to generate the new SMILES representation for each molecule.
 * If a SMILES string generates more than 512 tokens, the representation will be truncated to the first 512 tokens.
 * The resulting SMILES strings are saved in the specified pickle file as a list. 
